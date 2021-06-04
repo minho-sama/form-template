@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Form</title>
+  <meta name="description" content="form-practice">
+  <meta name="nguyen minh" content="intuit">
+
+  <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <main>
+        <article>
+            <img src = "assets/intuit.png" alt = "logos">
+            <form action="/my-handling-form-page" method="post">
+                <h1>Create an Intuit account</h1>
+                <h3>One account for everything in Intuit, including Mint.</h3>
+                <a href = "#">Learn more</a>
+                <ul>
+                    <li>
+                        <label>
+                            Email adress
+                            <input type = "email" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Phone (recommended)
+                            <input type = "phone" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Password
+                            <input type = "password" required>
+                        </label>
+                    </li>
+                </ul>
+                <button type = "submit"><img id = "lock" src = "assets/lock.png" alt = "lock">Create Account</button>
+                <p>By clicking Create Account, you agree to our <br>
+                    <span>Terms</span> and have read and acknowledge our <span>Global Privacy Statement</span>.</p>
+            </form>
+            <footer>
+                Invisible reCAPTCHA by Google <span>Privacy Policy</span> and <span>Terms of Use</span>.
+            </footer>
+        </article>
+    </main>
+    <aside>
+        <figure>
+            <figcaption>
+                <p>Already have an Intuit account?</p>
+                <p>I forgot my User ID or Password</p>
+            </figcaption>
+            <button><a href = "#">Sign in</a></button>
+        </figure>
+    </aside>
+</body>
+</html>
